@@ -1,22 +1,21 @@
-# International Business Hub – MTN MoMo Disbursement SDK
+# Boss_Man_Hub- 🚀
 
-This project provides a **Python SDK** to interact with **MTN MoMo Disbursement APIs**, including:
+Boss_Man_Hub- is a project that integrates **MTN MoMo Disbursement APIs** into a modern business hub platform.  
+It provides a **Python SDK** (`mtn_momo.py`) for handling money transfers, deposits, refunds, account validation, and more.  
+
+---
+
+## ✨ Features
 - ✅ Authentication (`CreateAccessToken`)
 - ✅ Validate Account Holder (`ValidateAccountHolderStatus`)
 - ✅ Deposits (`Deposit-V1`, `Deposit-V2`)
 - ✅ Refunds (`Refund-V1`, `Refund-V2`)
 - ✅ Transfers
 - ✅ Account Balances
-- ✅ Transaction Statuses (Deposit, Refund, Transfer)
+- ✅ Transaction Status (Deposit, Refund, Transfer)
 - ✅ User Info (Basic + With Consent)
-- ✅ Error Handling (standardized via `MomoAPIError`)
+- ✅ Centralized Error Handling (`MomoAPIError`)
 
 ---
 
-## 🚀 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/akininternationaluniversitycollege/International-Business-Hub.git
-cd International-Business-Hub
+## 📂 Project Structure
