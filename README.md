@@ -19,3 +19,11 @@ It provides a **Python SDK** (`mtn_momo.py`) for handling money transfers, depos
 ---
 
 ## 📂 Project Structure
+---
+
+## ⚙️ Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/akininternationaluniversitycollege-bit/Boss_Man_Hub-.git
+cd Boss_Man_Hub-
