@@ -29,15 +29,15 @@ git clone https://github.com/akininternationaluniversitycollege-bit/Boss_Man_Hub
 cd Boss_Man_Hub-
 pip install requests
 pip install -r requirements.txt
-export MOMO_API_USER=your_api_user
-export MOMO_API_KEY=your_api_key
-export MOMO_SUBSCRIPTION_KEY=your_subscription_key
+export MOMO_API_USER=International Business Hub
+export MOMO_API_KEY=d83a725fdb454010afdded6a82d8b40a
+export MOMO_SUBSCRIPTION_KEY=06508024d4674486aec230b22a23a168
 from mtn_momo import MTNMomoDisbursements, MomoAPIError
 
 momo = MTNMomoDisbursements(
-    api_user="YOUR_API_USER",
-    api_key="YOUR_API_KEY",
-    subscription_key="YOUR_SUBSCRIPTION_KEY"
+    api_user="International Business Hub",
+    api_key="d83a725fdb454010afdded6a82d8b40a",
+    subscription_key="06508024d4674486aec230b22a23a168"
 )
 
 try:
